@@ -1,0 +1,3 @@
+ModelDir,Passed,Failed,Skipped,Errors,Total,PassPercent
+tasks_gpt,29,1,0,0,30,96.7
+tasks_gemini,28,2,0,0,30,93.3

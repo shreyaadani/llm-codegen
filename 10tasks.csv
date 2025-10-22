@@ -1,0 +1,11 @@
+﻿#,Task title,Function contract (for prompt & tests),Concept
+1,Minimum cost path in matrix,"def min_cost_path(cost, m, n): → returns the minimum total cost to reach (m, n) from (0, 0) using right, down, or diagonal moves.",Dynamic Programming
+2,Count palindromic substrings,def count_palindromic_substrings(s): → returns the total number of substrings in s that are palindromes.,"Strings, 2-pointers"
+3,Sum of digits until single digit (digital root),def digital_root(n): → repeatedly sum digits of n until a single digit remains; return it.,Math / Loops
+4,Check if two strings are anagrams,"def are_anagrams(s1, s2): → returns True if s1 and s2 are anagrams, else False.",Strings / Dicts
+5,Find intersection of two sorted arrays,"def intersection_sorted(arr1, arr2): → returns a sorted list of elements common to both.",Arrays / 2-pointers
+6,Longest word in a sentence,def longest_word(sentence): → returns the longest word in a given sentence (string split by spaces).,Strings
+7,Check if parentheses are balanced,"def is_balanced_parentheses(expr): → returns True if expr has balanced (), {}, [] brackets.",Stack
+8,Transpose of a matrix,def transpose_matrix(matrix): → returns the transpose of a rectangular matrix (list of lists).,2D Lists
+9,Second largest element in list,def second_largest(nums): → returns the second largest distinct value in list nums.,Sorting / Iteration
+10,Count primes up to n,def count_primes_upto(n): → returns the number of prime numbers ≤ n.,Math / Sieve

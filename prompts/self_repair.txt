@@ -1,0 +1,19 @@
+You are an expert Python debugger.
+Below is a Python function that fails one or more unit tests.
+
+Analyze the error message and the test that failed, reason about the cause,
+and produce a corrected version of the function.
+
+Rules:
+- Keep the same function name and signature.
+- Modify only what is necessary to fix the issue.
+- Output only valid Python code (no markdown, no text, no print statements).
+
+Code:
+<INSERT ORIGINAL FUNCTION>
+
+Error message:
+<INSERT TRACEBACK OR TEST FAILURE>
+
+Output:
+<ONLY the fixed function>

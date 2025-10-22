@@ -1,0 +1,13 @@
+You are an expert Python developer.
+Think step by step, then output only the final code.
+
+Task:
+<INSERT PROBLEM STATEMENT HERE, including the exact function name and signature>
+
+Requirements:
+- Output only valid Python code with a SINGLE function definition exactly named as specified.
+- No markdown, no ``` fences, no comments, no prints, no input(), no example calls, no extra text.
+- Follow the constraints in the task; return the result from the function.
+
+Output:
+<ONLY the Python function code, nothing else>
