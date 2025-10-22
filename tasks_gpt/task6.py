@@ -1,5 +1,12 @@
+import re
+
 def longest_word(sentence):
-    words = sentence.split()
+    # take only alphanumeric runs as words
+    words = re.findall(r"[A-Za-z0-9]+", sentence)
     if not words:
         return ""
-    return max(words, key=len)
+    maxlen = max(len(w) for w in words)
+    # return the first word with max length (stable tie-break)
+    for w in words:
+        if len(w) == maxlen:
+            return w
