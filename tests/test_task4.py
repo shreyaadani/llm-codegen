@@ -10,4 +10,4 @@ def test_false():
 
 def test_case_insensitive():
     # Verifies ignoring spaces and case differences
-    assert are_anagrams("Below", "Elbow")
+    assert are_anagrams('Debit Card', 'Bad Credit')
