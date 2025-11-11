@@ -1,4 +1,4 @@
-```markdown
+````markdown
 # 🧠 Prompting, Debugging, and Automated Testing for Code Generation with LLMs
 
 **Author:** Shreyaa Jayant Dani  
@@ -22,7 +22,8 @@ Together, these experiments evaluate how LLMs can generate correct programs **an
 ---
 
 ## 🧩 Project Structure
-```
+
+```basg
 
 llm-codegen/
 ├── tasks_gpt/ # GPT-4o generated code (10 tasks)
@@ -42,7 +43,7 @@ llm-codegen/
 ├── cov_tasks_gpt\*/ # HTML/XML coverage reports (pytest-cov)
 ├── requirements.txt
 └── README.md / report.pdf / Exercise2_ShreyaaDani.docx
-
+```
 ````
 
 ---
@@ -60,7 +61,7 @@ python -m venv .venv
 
 # 3️⃣ Install dependencies
 pip install -r requirements.txt
-````
+```
 
 ---
 
