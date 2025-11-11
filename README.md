@@ -23,7 +23,7 @@ Together, these experiments evaluate how LLMs can generate correct programs **an
 
 ## 🧩 Project Structure
 
-```basg
+```bash
 
 llm-codegen/
 ├── tasks_gpt/ # GPT-4o generated code (10 tasks)
@@ -42,7 +42,7 @@ llm-codegen/
 │ └── part3_fault_detection.md
 ├── cov_tasks_gpt\*/ # HTML/XML coverage reports (pytest-cov)
 ├── requirements.txt
-└── README.md / report.pdf / Exercise2_ShreyaaDani.docx
+└── README.md
 ```
 ````
 
