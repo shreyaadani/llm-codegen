@@ -1,0 +1,22 @@
+You are an expert Python developer and tester.
+
+I have a Python function `matrix_transpose(matrix)` that returns the transpose of a 2D list (matrix).
+Each row in the input is a list. The function should:
+- Correctly transpose rectangular matrices (more rows than columns and vice versa).
+- Handle a single row and a single column.
+- Handle an empty matrix [] and a matrix with empty rows like [ [] ] in a well-defined way.
+
+Write additional `pytest` unit tests that increase branch coverage for this function by covering:
+- Empty matrix input.
+- 1xN and Nx1 matrices.
+- Non-square rectangular matrices (e.g., 2x3, 3x2).
+- Matrices containing negative numbers and zeros.
+
+Constraints:
+- Assume the function is loaded as: 
+    from conftest import load_func
+    matrix_transpose = load_func(8, "matrix_transpose")
+- Do NOT redefine `load_func` in the tests.
+- Output only Python `pytest` test functions (no explanations, comments, or print statements).
+- Use unique test names that do not clash with existing tests.
+

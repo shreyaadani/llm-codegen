@@ -1,0 +1,20 @@
+ Prompt 1 (for longest_word tests)
+
+
+You are an expert Python developer and tester.
+
+I have a Python function `longest_word(sentence: str) -> str` that returns the longest alphanumeric word in a sentence. 
+- Punctuation should be ignored (e.g., "word!" counts as "word").
+- If the sentence has no words (empty string or only punctuation), it should return the empty string "".
+
+Write additional `pytest` unit tests that increase **branch coverage** for this function. In particular, cover:
+- Empty string input.
+- String containing only punctuation.
+- Sentences with multiple words tied for longest length (ensure behavior is consistent).
+- Sentences containing words with digits.
+- Sentences with irregular spacing (multiple spaces, leading/trailing spaces).
+
+Constraints:
+- Assume the function is imported as: `from tasks_gpt.task6 import longest_word`.
+- Output only Python `pytest` test functions (no explanations, comments, or print statements).
+- Use unique test function names that do not clash with existing tests.
