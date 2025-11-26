@@ -1,0 +1,32 @@
+You are an expert Python tester.
+
+I have a function with the following signature:
+
+    def transpose_matrix(matrix):
+
+This function takes a 2D matrix represented as a list of lists and returns its transpose. The intended behavior is:
+
+- A matrix is treated as a list of rows, where each row is a list of elements.
+- For every valid pair of indices (i, j) in the input matrix, the value at position (i, j) appears at position (j, i) in the returned matrix.
+- The number of rows in the output equals the number of columns in the input (for well-formed, rectangular matrices).
+- The number of columns in the output equals the number of rows in the input.
+- If the input matrix is empty ([]), the function returns [].
+- If the input is a single row with n elements, the result is an n-by-1 matrix (n rows, each of length 1).
+- If the input is n rows of length 1, the result is a single row of length n.
+- Rectangular matrices (more rows than columns or vice versa) are handled correctly by transposing rows to columns.
+- If the input is `[[]]` (one empty row), the transpose is an empty list `[]`.
+- The function must not modify the input matrix in place; it returns a separate matrix representing the transpose.
+- The intended inputs are well-formed matrices where all non-empty rows have the same length.
+
+Write a set of pytest unit tests that CHECK this specification.
+
+Rules:
+- Assume the implementation is loaded as:
+
+      from conftest import load_func
+      transpose_matrix = load_func(8, "transpose_matrix")
+
+- Use plain pytest test functions (no classes).
+- Cover square, rectangular, 1xN, Nx1, empty list, and `[[]]` cases.
+- Do NOT duplicate extremely similar tests; focus on meaningful differences.
+- Output ONLY valid Python code for the tests (no explanations or comments).

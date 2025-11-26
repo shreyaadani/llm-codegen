@@ -1,0 +1,31 @@
+You are an expert Python tester.
+
+I have a function with the following signature:
+
+    def longest_word(sentence: str) -> str
+
+It implements this behavior:
+
+- A "word" is any maximal contiguous sequence of letters or digits.
+- Non-alphanumeric characters (punctuation, whitespace) act as separators and are not part of words.
+- If the sentence contains at least one alphanumeric word, the function returns one word whose length is maximal among all such words.
+- If multiple words share the same maximal length, the function may return any one of them.
+- If the sentence is empty, the function returns "".
+- If the sentence contains no alphanumeric characters, the function returns "".
+- If there is exactly one alphanumeric word, the function returns that word.
+- The case of letters is preserved in the returned word.
+- Digits are allowed and are part of words.
+- Mixed alphanumeric sequences (letters and digits) are treated as single words when contiguous.
+
+Write a set of pytest unit tests that CHECK this specification.
+
+Rules:
+- Assume the implementation is loaded as:
+
+      from conftest import load_func
+      longest_word = load_func(6, "longest_word")
+
+- Use plain pytest test functions (no classes).
+- Cover normal cases, edge cases, and tie situations.
+- Do NOT duplicate extremely similar tests; focus on meaningful differences.
+- Output ONLY valid Python code for the tests (no explanations or comments).

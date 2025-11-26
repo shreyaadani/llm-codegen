@@ -1,0 +1,14 @@
+* The function takes a single argument `sentence` of type `str` and returns a value of type `str`.
+* The function interprets a "word" as any maximal contiguous sequence of characters where each character is a letter (`a`–`z`, `A`–`Z`) or digit (`0`–`9`).
+* The function ignores any characters that are not letters or digits when determining word boundaries (i.e., punctuation and whitespace break words).
+* If `sentence` contains at least one alphanumeric word, the function returns one word whose length (in characters) is maximal among all such words in `sentence`.
+* If multiple words share the same maximal length, the function may return any one of those longest words.
+* The length of the returned string must equal the maximal length of any alphanumeric word found in `sentence`.
+* The returned word must appear as a contiguous subsequence of `sentence` when considering only letters and digits and using non-alphanumeric characters as separators.
+* If `sentence` is an empty string, the function returns the empty string `""`.
+* If `sentence` contains no alphanumeric characters (i.e., there is no letter or digit in the entire string), the function returns the empty string `""`.
+* If `sentence` contains exactly one alphanumeric word, the function returns that word, regardless of surrounding punctuation or whitespace.
+* Non-alphanumeric characters are never included in the returned string.
+* The function does not alter the case of letters in the returned word; the returned word’s characters are exactly as they appear in `sentence`.
+* The function treats digits as valid parts of words; a word composed solely of digits is eligible to be the longest word.
+* The function treats mixed alphanumeric sequences (letters and digits combined) as single words if they are contiguous.

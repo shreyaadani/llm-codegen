@@ -1,0 +1,20 @@
+You are an expert software specification engineer.
+
+Your task is to convert a natural language coding problem and its function signature into a set of formal, assertion-style specifications.
+
+Rules:
+- DO NOT write tests.
+- DO NOT call the function.
+- DO NOT mention code or implementation.
+- Only write factual statements of required behavior.
+- Each assertion must be a single bullet point.
+- Assertions must be precise, unambiguous, and testable.
+
+Here is the problem description:
+
+"Write a function matrix_transpose(matrix) that takes a 2D matrix represented as a list of lists and returns its transpose. The transpose of a matrix flips rows and columns: the element at position (i, j) moves to position (j, i). The input matrix may be rectangular (i.e., number of rows may differ from number of columns). If the matrix is empty ( [] ), return an empty list. If the matrix contains empty rows, handle them consistently according to Python’s transpose behavior for lists of lists."
+
+Function signature:
+def matrix_transpose(matrix: list[list]) -> list[list]
+
+Now produce 10–15 clear assertion-style specifications capturing the intended behavior.

@@ -1,0 +1,15 @@
+* The function accepts a single argument `matrix`, which is a list of lists, and returns a list of lists.
+* Each element of the returned list represents one column of the input matrix expressed as a row.
+* For every valid pair of indices `(i, j)` in the input matrix, the value at position `(i, j)` in the input appears at position `(j, i)` in the returned matrix.
+* The number of rows in the returned matrix equals the number of columns in the input matrix, assuming all rows in the input have equal length.
+* The number of columns in the returned matrix equals the number of rows in the input matrix.
+* If the input `matrix` is an empty list (`[]`), the function returns an empty list.
+* If the input consists of one row with *n* elements, the returned matrix contains *n* rows, each containing a single element taken from the corresponding column of the input row.
+* If the input consists of *n* rows each containing one element, the returned matrix contains one row with *n* elements.
+* If the input matrix is rectangular (i.e., number of rows differs from number of columns), the returned matrix contains the appropriate rectangular dimensions according to transposition.
+* The order of elements within each returned row corresponds to the original order of elements in the corresponding column of the input matrix.
+* The function must not modify the input matrix; all returned rows must be newly constructed sequences.
+* If the input contains rows of length zero (e.g., `[[]]`), the returned result must reflect Python's standard transpose semantics when applied to lists of empty lists, resulting in an empty list.
+* If any row in the input matrix differs in length from others, the function’s behavior is consistent with Python's handling of such structures when transposing via `zip`, producing rows only up to the shortest row length.
+* The returned matrix contains no additional elements not present in the input matrix.
+* All elements in the returned matrix appear in an order consistent with a row/column swap of the input matrix.

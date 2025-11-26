@@ -1,0 +1,20 @@
+You are an expert software specification engineer.
+
+Your task is to convert a natural language coding problem and its function signature into a set of formal, assertion-style specifications.
+
+Rules:
+- DO NOT write tests.
+- DO NOT call the function.
+- DO NOT mention code or implementation.
+- Only write factual statements of required behavior.
+- Each assertion must be a single bullet point.
+- Assertions must be precise, unambiguous, and testable.
+
+Here is the problem description:
+
+"Write a function longest_word(sentence) that returns the longest alphanumeric word in a string. A word is a contiguous run of letters or digits. Ignore punctuation. If multiple words have the same longest length, return any one of them. If the sentence contains no alphanumeric characters, return an empty string."
+
+Function signature:
+def longest_word(sentence: str) -> str
+
+Now produce 10–15 clear assertion-style specifications capturing the intended behavior.
